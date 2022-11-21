@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/geral.css">
+    <link rel="stylesheet" href="./css/dica.css">
+    <link rel="stylesheet" href="./css/ani.css">
+    <title>Enigma</title>
+</head>
+<body>
+<main>
+    <div class="geral">
+        <div class="timer">
+            <div class='title'>
+                <h1 class="faltam">site ficará online em:</h1>
+            </div>
+            <style>
+                body {
+                    margin-top: 20%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                }
+                .countdown{
+                    display: flex;
+                    flex-direction: row;
+                }
+                .lalala{
+                    margin: 35px;
+                    text-align: center;
+                }
+            </style>
+            <div class="countdown">
+                <div class="lalala">
+                    <h1 id="dias">00</h1>
+                    <p>Dias</p>
+                </div>
+                <div class="lalala">
+                    <h1 id="horas">00</h1>
+                    <p>Horas</p>
+                </div>
+                <div class="lalala">
+                    <h1  id="minutos">00</h1>
+                    <p>Minutos</p>
+                </div>
+                <div class="lalala">
+                    <h1 id="segundos">00</h1>
+                    <p>Segundos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+<script src="./timer.js"></script>
+</html>
